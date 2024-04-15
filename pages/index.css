@@ -186,6 +186,8 @@ body{
   background-color: var(--bg-color);
   border-radius: 10px;
   overflow: hidden;
+  margin: auto;
+  margin-top: 10px;
 }
 
 .button, .button__icon, .button__text {
@@ -234,7 +236,7 @@ body{
 
 .see_in_browser{
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 8%;
+  margin-top: 12px;
   padding: 3px;
   display: inline-block;
   text-decoration: overline;
