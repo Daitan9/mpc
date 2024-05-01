@@ -15,95 +15,15 @@
         @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
     </style>
     <link rel="icon" href="../images/logo.png">
+    <script src="jquery.js"></script> 
+    <script> 
+        $(function(){
+          $("#links-include").load("0links.html"); 
+        });
+    </script>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <a href="../" id="logo">
-                <img src="../images/logo.png" alt="" class="logo">
-            </a>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Semestre 1
-                </button>
-                <div class="dropdown-content">
-                    <a href="./1_calculus.html"><span class="maths">·</span> Calculus</a>
-                    <a href="./cours_1_2.html"><span class="maths">·</span> Méthodologie</a>
-                    <a href="./1_chimie_generale.html"><span class="phys">·</span> Chimie générale</a>
-                    <a href="./1_cin_dyn.html"><span class="phys">·</span> Cinématique du point</a>
-                    <a href="./1_electrocinetique.html"><span class="phys">·</span> Électrocinétique 1</a>
-                    <a href="./1_electronique_numerique.html"><span class="phys">·</span> Électronique numérique 1</a>
-                    <a href="./1_optique_geo.html"><span class="phys">·</span> Optique géométrique</a>
-                    <a href="./2_info.html">Informatique 1</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Semestre 2
-                </button>
-                <div class="dropdown-content">
-                    <a href="./cours_2_2.html"><span class="maths">·</span> Algèbre linéaire 1</a>
-                    <a href="./1_suites_fonctions.html"><span class="maths">·</span> Suites et fonctions</a>
-                    <a href="./2_chimie.html"><span class="phys">·</span> Chimie cinétique</a>
-                    <a href="./2_electrocinetique.html"><span class="phys">·</span> Électrocinétique 2</a>
-                    <a href="./2_electronique_numerique.html"><span class="phys">·</span> Électronique numérique 2</a>
-                    <a href="./1_meca_solide_et_fluide.html"><span class="phys">·</span> Mécanique fluide/solide</a>
-                    <a href="./1_optique_ond.html"><span class="phys">·</span> Optique ondulatoire</a>
-                    <a href="./1_thermo.html"><span class="phys">·</span> Thermodynamique</a>
-                    <a href="./cours_2_3.html">Informatique 2</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Semestre 3
-                </button>
-                <div class="dropdown-content">
-                    <a href="./2_algebre_lineaire.html"><span class="maths">·</span> Algèbre linéaire 2</a>
-                    <a href="./cours_3_2.html"><span class="maths">·</span> Analyse à plusieurs variables</a>
-                    <a href="./cours_3_3.html"><span class="maths">·</span> Suites et séries</a>
-                    <a href="./cours_3_3.html"><span class="phys">·</span> Électromagnétisme</a>
-                    <a href="./cours_3_3.html"><span class="phys">·</span> Mécanique solide</a>
-                    <a href="./cours_3_3.html"><span class="phys">·</span> Thermochimie</a>
-                    <a href="./cours_3_3.html">Informatique 3</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Semestre 4
-                </button>
-                <div class="dropdown-content">
-                    <a href="./cours_1_1.html"><span class="maths">·</span> Équations différentielles</a>
-                    <a href="./cours_1_2.html"><span class="maths">·</span> Probabilités</a>
-                    <a href="./cours_1_3.html"><span class="maths">·</span> Suites et séries de fonctions</a>
-                    <a href="./1_meca_fluide.html"><span class="phys">·</span> Mécanique des fluides</a>
-                    <a href="./cours_1_2.html"><span class="phys">·</span> Mécanique quantique</a>
-                    <a href="./cours_1_2.html"><span class="phys">·</span> Thermodynamique 2</a>
-                    <a href="./cours_1_2.html"><span class="phys">·</span> Vibrations aux ondes</a>
-                    <a href="./cours_1_2.html">Informatique 4</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Semestre 5
-                </button>
-                <div class="dropdown-content">
-                    <a href="./cours_2_2.html">Link1</a>
-                    <a href="./cours_2_2.html">Link2</a>
-                    <a href="./cours_2_3.html">Link3</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Semestre 6
-                </button>
-                <div class="dropdown-content">
-                    <a href="./cours_3_2.html">Link1</a>
-                    <a href="./cours_3_2.html">Link2</a>
-                    <a href="./cours_3_3.html">Link3</a>
-                </div>
-            </div>
-        </div>
-    </header>
+    <div id="links-include"></div>
     <div id="container">
         <div class="title_math title">
             <h1>Cinématique et dynamique du point</h1>
